@@ -24,22 +24,22 @@
 /* 字体引入：鸿蒙字体 */
 
 @font-face {
-  font-family: "HarmonyOS_Sans_SC";
+  font-family: "SmileySans-Oblique";
   font-weight: normal;
   font-style: normal;
-  src: url("phycat/HarmonyOS_Sans_SC_Regular.woff");
+  src: url("SmileySans-Oblique.woff2");
 }
 
 @font-face {
-  font-family: "HarmonyOS_Sans_SC";
+  font-family: "SmileySans-Oblique";
   font-weight: bold;
   font-style: normal;
-  src: url("phycat/HarmonyOS_Sans_SC_Bold.woff");
+  src: url("SmileySans-Oblique.woff2");
 }
 
 html {
   font-size: 16px;
-  font-family: "HarmonyOS_Sans_SC";
+  font-family: "SmileySans-Oblique";
 }
 
 /* 打印页面设置 */

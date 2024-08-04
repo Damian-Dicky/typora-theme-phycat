@@ -1,22 +1,22 @@
 /* 字体引入：鸿蒙字体 */
 
 @font-face {
-  font-family: "HarmonyOS_Sans_SC";
+  font-family: "SmileySans-Oblique";
   font-weight: normal;
   font-style: normal;
-  src: url("phycat/HarmonyOS_Sans_SC_Regular.woff");
+  src: url("SmileySans-Oblique.woff2");
 }
 
 @font-face {
-  font-family: "HarmonyOS_Sans_SC";
+  font-family: "SmileySans-Oblique";
   font-weight: bold;
   font-style: normal;
-  src: url("phycat/HarmonyOS_Sans_SC_Bold.woff");
+  src: url("SmileySans-Oblique.woff2");
 }
 
 html {
   font-size: 16px;
-  font-family: "HarmonyOS_Sans_SC";
+  font-family: "SmileySans-Oblique";
 }
 
 /* 打印页面设置 */
@@ -52,7 +52,7 @@ html {
 #write p {
   color: #333;
   margin: 10px 10px;
-  font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light,
+  font-family: "SmileySans-Oblique", Optima-Regular, Optima, PingFangSC-light, PingFangTC-light,
     "PingFang SC", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
   font-size: 1rem;
@@ -117,7 +117,7 @@ h6:after {
   text-underline-offset: 2px;
 }
 #write h2:hover {
-  background-position: -100% -100%;
+  background-position: -100% -100%; /*背景滑动*/
   transition: all ease-in-out 0.1s;
 }
 
@@ -408,7 +408,7 @@ li.md-list-item {
   color: var(--element-color-linecode);
   background: var(--element-color-linecode-background);
   border-radius: 3px;
-  font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+  font-family: "SmileySans-Oblique", Operator Mono, Consolas, Monaco, Menlo, monospace;
   letter-spacing: 0.5px;
 }
 
@@ -439,13 +439,13 @@ li.md-list-item {
 }
 
 .cm-s-inner.CodeMirror {
-  padding: 1.2rem 0.8rem;
+  padding: 1.0rem 0.8rem;
   color: #4f5467;
-  font-family: "JetBrainsMono";
+  font-family: "SmileySans-Oblique" ;
   border-radius: 10px;
   background-color: #fa0303;
   /* border: 1px solid #eef2f5;*/
-  line-height: 1.6rem;
+  line-height: 1.2rem;
 }
 
 .CodeMirror-gutters {
@@ -468,8 +468,9 @@ pre.CodeMirror-line {
   background: #f8f8f8;
   border-radius: 0 0 5px 5px;
   padding: 20px 10px 20px 10px;
+  font-family: "SmileySans-Oblique" ;
   page-break-before: auto;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
 
 .md-rawblock .md-rawblock-tooltip {
@@ -484,7 +485,7 @@ pre.CodeMirror-line {
 }
 
 .cm-variable {
-  color: #b92121 !important;
+  color: #e74e4e !important;
 }
 
 .cm-tag {
@@ -598,7 +599,7 @@ pre.CodeMirror-line {
 /* 目录 */
 
 .md-toc * {
-  font-family: "HarmonyOS_Sans_SC";
+  font-family: "SmileySans-Oblique", "HarmonyOS_Sans_SC";
 }
 .md-tooltip-hide > span {
   display: none;
